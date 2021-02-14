@@ -1,39 +1,44 @@
-#include <string>
+#include <cstdio>
 #include <vector>
 #include <algorithm>
-#include <functional>
 using namespace std;
 
-int solution(vector<int> people, int limit);
+int solution(vector<int> citations);
+bool cmp(const int& a, const int& b);
 
 int main() {
-    vector<int> people = { 70, 60, 50, 40, 30};
-    int limit = 100;
-
-    int result = solution(people, limit);
-    printf("%d\n", result);
-    
-    return 0;
+    vector<int> citations = { 3, 0, 6, 1, 5 };
+    printf("%d", solution(citations));
+	return 0;
 }
 
-int solution(vector<int> people, int limit) {
+bool cmp(const int &a, const int &b) {
+    return a > b;
+}
+
+int solution(vector<int> citations) {
     int answer = 0;
-    int pSize = people.size();
 
-    sort(people.begin(), people.end(), greater<int>());
-
-    int end = pSize - 1;
-    for (int i = 0; i < pSize; i++) {
-        if (people[i] * 2 <= limit) {
-            answer += (end - i + 1) / 2;
-            if ((end - i) % 2 == 1)
-                answer += 1;
-            break;
+    // 내림차순으로 정렬을 해두자
+    sort(citations.begin(), citations.end(), cmp);
+    
+    // 제일 큰 수부터 살피는데
+    int cSize = citations.size();
+    for (int h = citations[0]; h >= 0; h--)
+    {
+        int cnt = 0;
+        for (int j = 0; j < cSize; j++) {
+            if (h <= citations[j])
+                cnt++;
+            else
+                break;
         }
 
-        answer++;
-        if (people[i] + people[end] <= limit)
-            end--;
+        if (cnt >= h) {
+            answer = h;
+            break;
+        }
     }
+
     return answer;
 }
