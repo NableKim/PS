@@ -81,5 +81,14 @@
     <ClCompile Include="Programmers\Level2\PG72412.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level4\PG43236.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\BJ20055.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Baekjoon\Text.txt" />
   </ItemGroup>
 </Project>
