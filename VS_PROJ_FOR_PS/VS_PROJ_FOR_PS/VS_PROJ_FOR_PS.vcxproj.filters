@@ -39,6 +39,8 @@
     </Filter>
     <Filter Include="소스 파일\Concept">
       <UniqueIdentifier>{fca0ad37-bb73-4082-b041-1c2c12d33871}</UniqueIdentifier>
+    <Filter Include="소스 파일\Programmers\Level1">
+      <UniqueIdentifier>{9bc29163-fa9b-46da-8b07-3b5727b635c4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +184,8 @@
     </ClCompile>
     <ClCompile Include="중복조합.cpp">
       <Filter>소스 파일\Concept</Filter>
+    <ClCompile Include="PG64061.cpp">
+      <Filter>소스 파일\Programmers\Level1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
