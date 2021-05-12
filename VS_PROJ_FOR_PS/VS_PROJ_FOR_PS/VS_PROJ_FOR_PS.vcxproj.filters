@@ -31,6 +31,15 @@
     <Filter Include="소스 파일\SWEA">
       <UniqueIdentifier>{ee9a6004-eba6-4c9b-8e0a-f19016a2b8d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Kakao">
+      <UniqueIdentifier>{39e81cda-0b94-4c05-bcd6-a1a88f7fd9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Jungol">
+      <UniqueIdentifier>{57e46ca3-13dc-402b-add2-05aa92e3313b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Concept">
+      <UniqueIdentifier>{fca0ad37-bb73-4082-b041-1c2c12d33871}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon\BJ19236.cpp">
@@ -122,6 +131,57 @@
     </ClCompile>
     <ClCompile Include="SWEA4012.cpp">
       <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="PG67256.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="JO1822.cpp">
+      <Filter>소스 파일\Jungol</Filter>
+    </ClCompile>
+    <ClCompile Include="PG67258.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="PG67259.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오인턴1.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오인턴2.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오인턴3.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오인턴5.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오인턴4.cpp">
+      <Filter>소스 파일\Kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="JO1257.cpp">
+      <Filter>소스 파일\Jungol</Filter>
+    </ClCompile>
+    <ClCompile Include="JO1620.cpp">
+      <Filter>소스 파일\Jungol</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA1244.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="순열%28재귀%29.cpp">
+      <Filter>소스 파일\Concept</Filter>
+    </ClCompile>
+    <ClCompile Include="순열(점화식).cpp">
+      <Filter>소스 파일\Concept</Filter>
+    </ClCompile>
+    <ClCompile Include="중복순열.cpp">
+      <Filter>소스 파일\Concept</Filter>
+    </ClCompile>
+    <ClCompile Include="조합(점화식).cpp">
+      <Filter>소스 파일\Concept</Filter>
+    </ClCompile>
+    <ClCompile Include="중복조합.cpp">
+      <Filter>소스 파일\Concept</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
