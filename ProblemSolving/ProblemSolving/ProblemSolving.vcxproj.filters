@@ -13,5 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Programmers">
+      <UniqueIdentifier>{74038a87-4a4c-4975-8d54-845b166f6b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\Weekly">
+      <UniqueIdentifier>{cb7ff585-1a4b-4645-b1ec-9f1732eb17cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\Level3">
+      <UniqueIdentifier>{634dd18b-233b-4cce-96d8-07795b60e6ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PG82612_부족한금액계산하기.cpp">
+      <Filter>소스 파일\Programmers\Weekly</Filter>
+    </ClCompile>
+    <ClCompile Include="PG72413_합승택시요금.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
