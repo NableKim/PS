@@ -18,7 +18,7 @@ int find_prev(int n, int k, int gap) {
         if (k - 1 < 0)
             return -1;
 
-        if (!R[k - 1])
+        if (R[k - 1])
             cnt++;
         k--;
     }
@@ -32,7 +32,7 @@ int find_next(int n, int k, int gap) {
         if (k + 1 >= n)
             return -1;
 
-        if (!R[k + 1])
+        if (R[k + 1])
             cnt++;
         k++;
     }
@@ -43,13 +43,13 @@ int find_next(int n, int k, int gap) {
 int init(int start, int end, int node) {
     if (start == end) return ST[node] = R[start];
     int mid = (start + end) / 2;
-    return ST[node] = init(start, mid, node * 2) + init(mid + 1, end, mid * 2 + 1);
+    return ST[node] = init(start, mid, node * 2) + init(mid + 1, end, node * 2 + 1);
 }
 
 // 备埃钦(left, right) 备窍扁
 int sum(int start, int end, int node, int left, int right) {
     if (right < start || end < left) return 0;
-    if (start <= left && right <= end) return ST[node];
+    if (left <= start  &&  end <= right) return ST[node];
     int mid = (start + end) / 2;
     return sum(start, mid, node * 2, left, right) + sum(mid + 1, end, node * 2 + 1, left, right);
 }
@@ -76,16 +76,13 @@ string solution(int n, int k, vector<string> cmd) {
     for (string& s : cmd) {
         if (s[0] == 'U') {
             int gap = stoi(s.substr(2));
-            int tmp = sum(0, n-1, 1, k + 1, k + gap);
-            gap -= tmp;
-            k = find_prev(n, k + gap, tmp);
+            int tmp = sum(0, n - 1, 1, k - gap, k - 1);
+            k = find_prev(n, k - gap, gap-tmp);
         }
         else if (s[0] == 'D') {
             int gap = stoi(s.substr(2));
-            int tmp = sum(0, n - 1, 1, k - gap, k - 1);
-            gap -= tmp;
-
-            k = find_next(n, k - gap, gap);
+            int tmp = sum(0, n - 1, 1, k + 1, k + gap);
+            k = find_next(n, k + gap, gap-tmp);
         }
         else if (s[0] == 'C') {
             R[k] = 0;    // 青 昏力 贸府
@@ -113,9 +110,9 @@ string solution(int n, int k, vector<string> cmd) {
     string str = "";
     for (int i = 0; i < n; i++) {
         if (R[i])
-            str += "X";
-        else
             str += "O";
+        else
+            str += "X";
     }
 
     return str;
@@ -123,6 +120,7 @@ string solution(int n, int k, vector<string> cmd) {
 
 int main() {
 
-    cout << solution(8, 2, { "D 2","C","U 3","C","D 4","C","U 2","Z","Z" });
+    //cout << solution(8, 2, { "D 2","C","U 3","C","D 4","C","U 2","Z","Z" });
+    cout << solution(8, 2, { "D 2","C","U 3","C","D 4","C","U 2","Z","Z","U 1","C" });
 
 }
