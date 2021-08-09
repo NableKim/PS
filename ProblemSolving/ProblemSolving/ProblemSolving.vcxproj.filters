@@ -22,12 +22,33 @@
     <Filter Include="소스 파일\Programmers\Level3">
       <UniqueIdentifier>{634dd18b-233b-4cce-96d8-07795b60e6ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Programmers\Level2">
+      <UniqueIdentifier>{deb53a79-0bc9-463e-ac7f-ad7471e51ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Concept">
+      <UniqueIdentifier>{7d23f47d-c13e-430e-9e3a-c619e2a5f5ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
       <Filter>소스 파일\Programmers\Weekly</Filter>
     </ClCompile>
     <ClCompile Include="PG72413_합승택시요금.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="PG81302_거리두기확인하기.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="PG81301_숫자문자열과영단어.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="PG81303_표편집%28by선형탐색%29.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment_Tree.cpp">
+      <Filter>소스 파일\Concept</Filter>
+    </ClCompile>
+    <ClCompile Include="PG81303_표편집(by세그먼트트리).cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
   </ItemGroup>
