@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Concept">
       <UniqueIdentifier>{7d23f47d-c13e-430e-9e3a-c619e2a5f5ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LeetCode">
+      <UniqueIdentifier>{09d0c60b-842c-4a9b-ba13-b35757f298ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="PG81303_표편집(by세그먼트트리).cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="LC347_TopKFrequentElements.cpp">
+      <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

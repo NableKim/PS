@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PG81303_표편집(by세그먼트트리).cpp" />
+    <ClCompile Include="LC347_TopKFrequentElements.cpp" />
+    <ClCompile Include="PG81303_표편집(by세그먼트트리).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="PG81303_표편집%28by선형탐색%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
