@@ -63,7 +63,13 @@
     <ClCompile Include="LC7_ZigzagConversion.cpp">
       <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="PG72414_광고삽입%28미해결%29.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
     <ClCompile Include="PG72414_광고삽입.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="PG72414_광고삽입2.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
   </ItemGroup>
