@@ -75,6 +75,9 @@
     <ClCompile Include="PG81303_표편집3.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="PG84021.cpp">
+      <Filter>소스 파일\Programmers\Weekly</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
