@@ -80,7 +80,7 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 
     // 우선 각 주문별 주문 음식 기록
     for (int i = 0; i < N; i++) {                       // O(N)
-        sort(orders[i].begin(), orders[i].end());       // O(NlogN)
+        sort(orders[i].begin(), orders[i].end());       // O(MlogM)
         for (int j = 0; j < orders[i].size(); j++)      // O(M)
             O[i][orders[i][j] - 'A'] = true;
     }
