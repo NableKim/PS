@@ -148,7 +148,10 @@
     <ClCompile Include="PG60057_문자열압축.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="PG72411_메뉴리뉴얼.cpp" />
+    <ClCompile Include="PG72411_메뉴리뉴얼.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="PG72411_메뉴리뉴얼2.cpp" />
     <ClCompile Include="PG72414_광고삽입%28미해결%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
