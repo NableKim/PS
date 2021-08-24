@@ -50,7 +50,7 @@ void bfs(vector<vector<int>> map, int y, int x, int mode) {
             if (ny < 0 || ny >= Y || nx < 0 || nx >= X)
                 continue;
 
-            if (map[ny][nx] == 1 || check[ny][nx])
+            if (map[ny][nx] == mode || check[ny][nx])
                 continue;
 
             check[ny][nx] = true;
@@ -101,7 +101,7 @@ void bfs(vector<vector<int>> map, int y, int x, int mode) {
     memcpy(newBlock.col, col, sizeof(col));
     newBlock.used = false;
 
-    if (mode == 0)
+    if (mode == 1)
         gv.push_back(newBlock);
     else
         tv.push_back(newBlock);
@@ -161,7 +161,7 @@ bool isSame(Block tBlock, Block gBlock) {
     }
 
     for (int i = 0; i < 6; i++) {
-        if (row[i] != gBlock.row[i]) {
+        if (row[i] != gBlock.row[5-i]) {
             flag = false;
             break;
         }
@@ -199,7 +199,7 @@ bool isSame(Block tBlock, Block gBlock) {
 }
 
 int solution(vector<vector<int>> game_board, vector<vector<int>> table) {
-    int answer = -1;
+    int answer = 0;
     
 
     Y = game_board.size();
@@ -208,28 +208,29 @@ int solution(vector<vector<int>> game_board, vector<vector<int>> table) {
     for (int y = 0; y < Y; y++) {
         for (int x = 0; x < X; x++) {
             if (!check[y][x] && game_board[y][x] == 0)
-                bfs(game_board, y, x, 0);
+                bfs(game_board, y, x, 1);
         }
     }
 
     memset(check, false, sizeof(check));
     for (int y = 0; y < Y; y++) {
         for (int x = 0; x < X; x++) {
-            if (!check[y][x] && table[y][x] == 0)
-                bfs(table, y, x, 1);
+            if (!check[y][x] && table[y][x] == 1)
+                bfs(table, y, x, 0);
         }
     }
 
-    int gBlockSize = gv.size();
     int tBlockSize = tv.size();
-    for (int t = 0; t < tBlockSize; t++) {
-        for (int g = 0; g < gBlockSize; g++) {
+    int gBlockSize = gv.size();
+    for (int g = 0; g < gBlockSize; g++) {
+        for (int t = 0; t < tBlockSize; t++) {
             if (tv[t].num != gv[g].num) continue;
             if (tv[t].used) continue;
 
             if (isSame(tv[t], gv[g])) {
                 answer += tv[t].num;
                 tv[t].used = true;
+                break;
             }
 
         }
