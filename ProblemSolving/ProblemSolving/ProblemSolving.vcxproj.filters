@@ -93,6 +93,9 @@
     <ClCompile Include="PG60058_괄호변환.cpp">
       <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="PG67257_수식최대화.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
