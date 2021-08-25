@@ -87,8 +87,11 @@
     <ClCompile Include="PG72411_메뉴리뉴얼2.cpp">
       <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="PG84021_퍼즐조각채우기2%28미해결%29.cpp">
+    <ClCompile Include="PG84021_퍼즐조각채우기2.cpp">
       <Filter>소스 파일\Programmers\Weekly</Filter>
+    </ClCompile>
+    <ClCompile Include="PG60058_괄호변환.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
