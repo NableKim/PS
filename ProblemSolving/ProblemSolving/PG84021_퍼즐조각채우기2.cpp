@@ -60,28 +60,8 @@ void bfs(vector<vector<int>> map, int y, int x, int mode) {
         }
     }
 
-    int blockSize = q2.size();
-
-    int min_y, min_x;
-    min_y = min_x = 100;
-
-    // y, x 최소값 구하기
-    for (int i = 0; i < blockSize; i++) {
-
-        Point front = q2.front();
-        q2.pop();
-
-        if (min_y > front.y)
-            min_y = front.y;
-
-        if (min_x > front.x)
-            min_x = front.x;
-
-        q2.push(front);
-    }
-
     Block newBlock;
-    newBlock.num = blockSize;
+    newBlock.num = q2.size();
     newBlock.used = false;
     while (!q2.empty()) {
         Point front = q2.front();
@@ -166,7 +146,7 @@ bool isSame(Block tBlock, Block gBlock, int limit) {
     v2.clear();
     tmp.clear();
     for (int i = 0; i < bSize; i++) {
-        tmp.push_back({ limit - tBlock.v[i].y, tBlock.v[i].x });
+        tmp.push_back({ limit - tBlock.v[i].y, limit - tBlock.v[i].x });
     }
 
     v2_min_y = 100, v2_min_x = 100;
@@ -210,7 +190,6 @@ bool isSame(Block tBlock, Block gBlock, int limit) {
 
 int solution(vector<vector<int>> game_board, vector<vector<int>> table) {
     int answer = 0;
-
 
     Y = game_board.size();
     X = game_board[0].size();
@@ -258,12 +237,12 @@ int main() {
         {
             { 0, 0, 1 }, 
             { 1, 0, 1 }, 
-            { 1, 0, 0 }
+            { 1, 0, 1 }
         },
         {
-            { 0, 0, 1 }, 
-            { 1, 1, 1 }, 
-            { 1, 0, 1 }
+            { 1, 0, 0 }, 
+            { 1, 0, 0 }, 
+            { 1, 1, 0 }
         }
     );*/
     /*cout << solution(
