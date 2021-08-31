@@ -99,6 +99,12 @@
     <ClCompile Include="PG81302_거리두기확인하기2.cpp">
       <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="PG72412_순위검색.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="PG72412_순위검색2.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
