@@ -1,3 +1,8 @@
+/*
+* BFS를 활용하여 맨해튼 거리 2이하에 사람이 있는지 확인하는 방식으로 접근
+* 시간복잡도 : O(N^2), N은 대기실의 면접 대기실 한변의 길이
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
