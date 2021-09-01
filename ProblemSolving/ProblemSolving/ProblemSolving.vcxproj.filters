@@ -105,6 +105,9 @@
     <ClCompile Include="PG72412_순위검색2.cpp">
       <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="PG72415_카드짝맞추기.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
