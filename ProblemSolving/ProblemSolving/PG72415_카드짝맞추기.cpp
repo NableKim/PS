@@ -15,7 +15,7 @@ struct P {
 vector<P> v[7];
 vector<int> arr;
 vector<vector<int>> map;
-int sy, sx, answer = BIG_NUM;
+int sy, sx, sy_bk, sx_bk, answer = BIG_NUM;
 int dy[] = { -1, 0, 1, 0 };
 int dx[] = { 0, -1, 0, 1 };
 
@@ -104,13 +104,13 @@ int bfs(P target) {
     return 0;
 }
 
-int minResult(int index) {
+int minResult(int node) {
 
     int by = sy, bx = sx;
 
     int result1 = 0;
-    result1 += bfs(v[arr[index]][0]);
-    result1 += bfs(v[arr[index]][1]);
+    result1 += bfs(v[node][0]);
+    result1 += bfs(v[node][1]);
 
     int ssy = sy, ssx = sx;
 
@@ -118,8 +118,8 @@ int minResult(int index) {
     sy = by; sx = bx;
 
     int result2 = 0;
-    result2 += bfs(v[arr[index]][1]);
-    result2 += bfs(v[arr[index]][0]);
+    result2 += bfs(v[node][1]);
+    result2 += bfs(v[node][0]);
 
     if (result1 < result2) {
         sy = ssy; sx = ssx;
@@ -128,22 +128,28 @@ int minResult(int index) {
     return result2;
 }
 
-void permu(int depth) {
-    if (depth == 3) {
+void permu(int depth, int arrSize) {
+    if (depth == arrSize) {
 
         // map 정보 back
         vector<vector<int>> map_bk;
         map_bk = map;
+        sy = sy_bk; sx = sx_bk;
 
         int result = 0;
 
         // 주어진 순열에 따라 bfs 탐색 시작
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arrSize; i++) {
             result += minResult(arr[i]);
 
+            map[v[arr[i]][0].y][v[arr[i]][0].x] = 0;
+            map[v[arr[i]][1].y][v[arr[i]][1].x] = 0;
+
             // 이 경우는 더 이상 할 필요 없음
-            if (result >= answer)
+            if (result >= answer) {
+                map = map_bk;
                 return;
+            }
         }
 
         // 정답 갱신
@@ -156,9 +162,9 @@ void permu(int depth) {
         return;
     }
 
-    for (int i = depth; i < 3; i++) {
+    for (int i = depth; i < arrSize; i++) {
         swap(i, depth);
-        permu(depth + 1);
+        permu(depth + 1, arrSize);
         swap(i, depth);
     }
 }
@@ -188,19 +194,22 @@ int solution(vector<vector<int>> board, int r, int c) {
     }
 
     // 시작위치 전역화
-    sy = r; sx = c;
+    sy_bk = sy = r; sx_bk = sx = c;
     map = board;
 
     // arr를 가지고 순열 구하기
-    permu(0);
+    permu(0, arr.size());
 
-    return answer;
+    return answer+(arr.size()*2);
 }
 
 int main() {
 
-    vector<vector<int>> board = { {1,0,0,3},{2,0,0,0},{0,0,0,2},{3,0,1,0} };
-    int r = 1;
+    //vector<vector<int>> board = { {1,0,0,3},{2,0,0,0},{0,0,0,2},{3,0,1,0} };
+    //vector<vector<int>> board = { {1,0,0,5},{0,0,0,0},{0,0,0,0},{5,0,1,0} };
+    //vector<vector<int>> board = { {1,1,6,6},{0,0,0,0},{0,0,0,0},{0,0,0,0} };
+    vector<vector<int>> board = { {1, 5, 0, 2}, {6, 4, 3, 0}, {0, 2, 1, 5}, {3, 0, 6, 4} };
+    int r = 0;
     int c = 0;
 
     cout << solution(board, r, c);
