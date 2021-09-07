@@ -114,6 +114,9 @@
     <ClCompile Include="PG67258_보석쇼핑2.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="PG60061_기둥과보설치.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
