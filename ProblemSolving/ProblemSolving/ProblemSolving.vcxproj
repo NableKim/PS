@@ -154,7 +154,10 @@
     <ClCompile Include="PG67257_수식최대화.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="PG67258_보석쇼핑.cpp" />
+    <ClCompile Include="PG67258_보석쇼핑%28효율성실패%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="PG67258_보석쇼핑2.cpp" />
     <ClCompile Include="PG72411_메뉴리뉴얼.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
