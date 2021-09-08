@@ -1,215 +1,181 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <algorithm>
 #include <queue>
 #include <cstring>
 using namespace std;
 
-#define BIG_NUM 9999
-
-struct P {
-    int y, x;
+struct CARD {
+    int y, x, number;
 };
 
-vector<P> v[7];
-vector<int> arr;
-vector<vector<int>> map;
-int sy, sx, sy_bk, sx_bk, answer = BIG_NUM;
+struct P {
+    int y, x, d;    // y, x, d(거리)
+};
+
+vector<CARD> card;
+vector<int> pick;   // 순열을 구하기 위한 배열
+vector<vector<int>> map;    // board 전역화
+int sy, sx;         // 주어진 시작 위치
+int minVal = 987654321;
 int dy[] = { -1, 0, 1, 0 };
 int dx[] = { 0, -1, 0, 1 };
 
-void swap(int a, int b) {
-    int tmp = arr[a];
-    arr[a] = arr[b];
-    arr[b] = tmp;
+bool operator<(P a, P b) {
+    return a.d > b.d;
 }
 
-int bfs(P target) {
+int bfs(int ty, int tx) {
 
-    int ty, tx;
-    ty = target.y;
-    tx = target.x;
+    priority_queue<P> pq;
+    pq.push({ sy, sx, 0 });
 
-    queue<P> q;
-    q.push({sy, sx});
-    
-    int check[4][4];
-    memset(check, BIG_NUM, sizeof(check));
-    check[sy][sx] = 0;
+    while (!pq.empty()) {
+        P front = pq.top();
+        pq.pop();
 
-    while (!q.empty()) {
+        // 현재 위치가 목표 지점과 같다면
+        if (front.y == ty && front.x == tx)
+            return front.d;
 
-        // 갈 수 있는 다음 위치 구하기
-        P front = q.front(); q.pop();
+        int ny, nx; // 다음 위치
 
-        // 한칸 단위로 움직이는 경우
-        int ny, nx;
+        // 방향키로 한칸 이동하는 경우
         for (int k = 0; k < 4; k++) {
             ny = front.y + dy[k];
             nx = front.x + dx[k];
 
             if (ny < 0 || ny >= 4 || nx < 0 || nx >= 4) continue;
-            if (check[ny][nx] < check[front.y][front.x] + 1) continue;
-
-            check[ny][nx] = check[front.y][front.x] + 1;
-            q.push({ ny, nx });
-
-            // target을 발견했다면
-            if (ty == ny && tx == nx) {
-                sy = ty; sx = tx;
-                return check[ny][nx];
-            }
+            
+            pq.push({ ny, nx, front.d + 1 });
         }
-        
-        // ctrl + 방향키
+
+        // ctrl+방향키를 누르는 경우
         for (int k = 0; k < 4; k++) {
-            int pre_y = front.y;
-            int pre_x = front.x;
+            ny = front.y;
+            nx = front.x;
+            
+            // 2~3칸까지 이동
+            int interval = 2;
+            for (; interval < 4; interval++) {
+                int tmp_ny = front.y + dy[k] * interval;
+                int tmp_nx = front.x + dx[k] * interval;
 
-            // 2~3칸 장거리 이동 가능
-            for (int t = 2; t < 4; t++) {
-                ny = front.y + dy[k]*t;
-                nx = front.x + dx[k]*t;
-
-                // 범위를 벗어난 경우
-                if (ny < 0 || ny >= 4 || nx < 0 || nx >= 4) break;
+                // 범위를 벗어난다면
+                if (tmp_ny < 0 || tmp_ny >= 4 || tmp_nx < 0 || tmp_nx >= 4) break;
                 
-                pre_y = ny;
-                pre_x = nx;
+                // 위치값 갱신
+                ny = tmp_ny; nx = tmp_nx;
 
-                // 이 방향에 카드가 존재하는 경우
-                if (map[ny][nx] != 0)
+                if (map[tmp_ny][tmp_nx] != 0)
                     break;
             }
 
-            // 이 방향으로는 움직일 곳이 없으면 제자리
-            if (pre_y == front.y && pre_x == front.x)
-                continue;
-
-            // 장거리로 움직일 수 있는 곳이 있다면 que에 추가
-            if (check[pre_y][pre_x] > check[front.y][front.x] + 1) {
-                check[pre_y][pre_x] = check[front.y][front.x] + 1;
-                q.push({ pre_y, pre_x });
-            }
-
-            // target을 발견했다면
-            if (ty == pre_y && tx == pre_x) {
-                sy = ty; sx = tx;
-                return check[pre_y][pre_x];
-            }
+            if (ny != front.y || nx != front.x)
+                pq.push({ ny, nx, front.d + 1 });
         }
     }
 
-    return 0;
+    return 9999;
 }
 
-int minResult(int node) {
-
-    int by = sy, bx = sx;
-
-    int result1 = 0;
-    result1 += bfs(v[node][0]);
-    result1 += bfs(v[node][1]);
-
-    int ssy = sy, ssx = sx;
-
-    // 처음 위치값 원복
-    sy = by; sx = bx;
-
-    int result2 = 0;
-    result2 += bfs(v[node][1]);
-    result2 += bfs(v[node][0]);
-
-    if (result1 < result2) {
-        sy = ssy; sx = ssx;
-        return result1;
-    }
-    return result2;
+void swap(int a, int b) {
+    int tmp = pick[a];
+    pick[a] = pick[b];
+    pick[b] = tmp;
 }
 
-void permu(int depth, int arrSize) {
-    if (depth == arrSize) {
+void permutation(int depth) {
 
-        // map 정보 back
-        vector<vector<int>> map_bk;
-        map_bk = map;
-        sy = sy_bk; sx = sx_bk;
-
-        int result = 0;
-
-        // 주어진 순열에 따라 bfs 탐색 시작
-        for (int i = 0; i < arrSize; i++) {
-            result += minResult(arr[i]);
-
-            map[v[arr[i]][0].y][v[arr[i]][0].x] = 0;
-            map[v[arr[i]][1].y][v[arr[i]][1].x] = 0;
-
-            // 이 경우는 더 이상 할 필요 없음
-            if (result >= answer) {
-                map = map_bk;
+    if (depth == card.size()) {
+        
+        // 같은 숫자인 카드를 연속으로 방문한 경우에 대한 순열만 필터링함
+        for (int i = 0; i < card.size(); i+=2) {
+            int firstCard = pick[i];
+            int secondCard = pick[i + 1];
+            if (card[firstCard].number != card[secondCard].number)
                 return;
+        }
+
+        // 첫번째 카드부터 탐색 시작
+        int sy_bk = sy, sx_bk = sx; // 시작 위치 백업
+        int sum = 0;
+        for (int i = 0; i < card.size(); i++) {
+            sum += bfs(card[pick[i]].y, card[pick[i]].x);
+
+            // 카드 짝을 맞췄다면 둘다 빈칸으로 만들기
+            if (i % 2 == 1) {
+                int index = pick[i];
+                map[card[index].y][card[index].x] = 0;
+                
+                index = pick[i-1];
+                map[card[index].y][card[index].x] = 0;
             }
+
+            // 지금까지 구한 최소비용보다 길다면 더 볼 필요없음
+            if (sum > minVal)
+                break;
+
+            sy = card[pick[i]].y;
+            sx = card[pick[i]].x;
         }
 
         // 정답 갱신
-        if (result < answer)
-            answer = result;
+        if (sum < minVal)
+            minVal = sum;
 
-        // map 정보 원복
-        map = map_bk;
+        // 모든 카드들을 원위치 시킴
+        for (int i = 0; i < pick.size(); i++) {
+            int index = pick[i];
+            map[card[index].y][card[index].x] = card[index].number;
+        }
+        sy = sy_bk; sx = sx_bk; // 기존 시작 위치 복구
 
         return;
     }
 
-    for (int i = depth; i < arrSize; i++) {
-        swap(i, depth);
-        permu(depth + 1, arrSize);
-        swap(i, depth);
+    for (int i = depth; i < pick.size(); i++) {
+        swap(depth, i); // depth번째 원소에 i번째 원소가 들어감
+        permutation(depth + 1);
+        swap(depth, i); // 복구
     }
 }
 
-int solution(vector<vector<int>> board, int r, int c) {
 
-    // 주어진 입력으로 어떤 카드들이 뒤집어져 있는지 메모
-    vector<int> tmp; 
+int solution(vector<vector<int>> board, int r, int c) {
+    map = board;
+
+    // Step 1. 시작점과 카드 번호별 위치를 저장해둠
+    sy = r, sx = c;
     for (int y = 0; y < 4; y++) {
         for (int x = 0; x < 4; x++) {
             if (board[y][x] != 0) {
-                v[board[y][x]].push_back({ y, x });
-                tmp.push_back(board[y][x]);
+                card.push_back({ y, x, board[y][x] });
             }
         }
     }
 
-    sort(tmp.begin(), tmp.end());
+    // Step 2. 카드 각각에 번호를 부여해서 같은 번호가 연속적으로 나오도록 순열을 구하기
+    for (int i = 0; i < card.size(); i++)
+        pick.push_back(i);
 
-    int pre = tmp[0];
-    arr.push_back(pre);
-    for (int i = 1; i < tmp.size(); i++) {
-        if (pre != tmp[i]) {
-            arr.push_back(tmp[i]);
-            pre = tmp[i];
-        }
-    }
+    permutation(0);
 
-    // 시작위치 전역화
-    sy_bk = sy = r; sx_bk = sx = c;
-    map = board;
+    // Step 3. 카드 순서에 따라 bfs 탐색을 수행
 
-    // arr를 가지고 순열 구하기
-    permu(0, arr.size());
+    // Step 4. bfs 탐색하면서 이동한 횟수 누적
 
-    return answer+(arr.size()*2);
+    // Step 5. 정답 갱신
+
+
+    return minVal+card.size();
 }
 
 int main() {
-
+    
     //vector<vector<int>> board = { {1,0,0,3},{2,0,0,0},{0,0,0,2},{3,0,1,0} };
-    //vector<vector<int>> board = { {1,0,0,5},{0,0,0,0},{0,0,0,0},{5,0,1,0} };
-    //vector<vector<int>> board = { {1,1,6,6},{0,0,0,0},{0,0,0,0},{0,0,0,0} };
-    vector<vector<int>> board = { {1, 5, 0, 2}, {6, 4, 3, 0}, {0, 2, 1, 5}, {3, 0, 6, 4} };
-    int r = 0;
+    vector<vector<int>> board = { {3, 0, 0, 2}, {0, 0, 1, 0}, {0, 1, 0, 0}, {2, 0, 0, 3} };
+    int r = 1;
     int c = 0;
 
     cout << solution(board, r, c);
