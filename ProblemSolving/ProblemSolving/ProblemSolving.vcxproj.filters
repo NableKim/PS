@@ -126,6 +126,9 @@
     <ClCompile Include="PG42579_베스트앨범.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="PG42628_이중우선순위큐.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
