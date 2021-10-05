@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\LeetCode">
       <UniqueIdentifier>{09d0c60b-842c-4a9b-ba13-b35757f298ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Baekjoon">
+      <UniqueIdentifier>{a7e531ac-9fea-4b9a-b879-9d5ecb0827ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
@@ -134,6 +137,15 @@
     </ClCompile>
     <ClCompile Include="PG49189_가장먼노드_최소힙사용.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ12015_가장긴증가하는부분수열2.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ1644_소수의연속합.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ1644_소수의연속합_투포인터.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
