@@ -156,6 +156,12 @@
     <ClCompile Include="BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="PG12904_가장긴팰린드롬.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="PG12904_가장긴팰린드롬_시간복잡도낮추기.cpp">
+      <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
