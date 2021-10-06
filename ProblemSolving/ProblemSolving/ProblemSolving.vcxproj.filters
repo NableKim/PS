@@ -153,6 +153,9 @@
     <ClCompile Include="BJ3908_서로다른소수의합.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
