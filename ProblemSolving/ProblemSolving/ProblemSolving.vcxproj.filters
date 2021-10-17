@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\Baekjoon">
       <UniqueIdentifier>{a7e531ac-9fea-4b9a-b879-9d5ecb0827ec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Softeer">
+      <UniqueIdentifier>{1b226c66-b0d3-48b4-ab5b-dc15d0441755}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
@@ -173,6 +176,18 @@
     </ClCompile>
     <ClCompile Include="PG12979_기지국설치.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="ST582_지우는소수를좋아해.cpp">
+      <Filter>소스 파일\Softeer</Filter>
+    </ClCompile>
+    <ClCompile Include="ST582_지우는소수를좋아해2.cpp">
+      <Filter>소스 파일\Softeer</Filter>
+    </ClCompile>
+    <ClCompile Include="ST582_지우는소수를좋아해3.cpp">
+      <Filter>소스 파일\Softeer</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ7569_토마토.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
