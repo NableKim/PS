@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\Softeer">
       <UniqueIdentifier>{1b226c66-b0d3-48b4-ab5b-dc15d0441755}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Swea">
+      <UniqueIdentifier>{5eabd611-c73c-4055-b984-160c39b20192}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
@@ -188,6 +191,12 @@
     </ClCompile>
     <ClCompile Include="BJ7569_토마토.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA5656_벽돌깨기.cpp">
+      <Filter>소스 파일\Swea</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\Swea</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
