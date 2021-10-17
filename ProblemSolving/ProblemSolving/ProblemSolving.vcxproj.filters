@@ -195,8 +195,8 @@
     <ClCompile Include="SWEA5656_벽돌깨기.cpp">
       <Filter>소스 파일\Swea</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일\Swea</Filter>
+    <ClCompile Include="BJ16637_괄호추가하기.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
