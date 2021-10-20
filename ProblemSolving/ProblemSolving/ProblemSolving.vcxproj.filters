@@ -201,6 +201,9 @@
     <ClCompile Include="PG77486_다단계칫솔판매.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="ST581_택배마스터광우.cpp">
+      <Filter>소스 파일\Softeer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
