@@ -204,6 +204,9 @@
     <ClCompile Include="ST581_택배마스터광우.cpp">
       <Filter>소스 파일\Softeer</Filter>
     </ClCompile>
+    <ClCompile Include="ST582_지우는소수를좋아해4.cpp">
+      <Filter>소스 파일\Softeer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
