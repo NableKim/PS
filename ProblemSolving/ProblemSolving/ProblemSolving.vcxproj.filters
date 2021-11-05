@@ -258,6 +258,9 @@
     <ClCompile Include="PG77485_행렬테두리회전하기.cpp">
       <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="PG86052_빛의경로사이클.cpp">
+      <Filter>소스 파일\Programmers\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
