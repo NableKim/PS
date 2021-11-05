@@ -241,6 +241,7 @@
     <ClCompile Include="PG42628_이중우선순위큐.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="PG42890_후보키.cpp" />
     <ClCompile Include="PG49189_가장먼노드.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
