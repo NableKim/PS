@@ -148,6 +148,7 @@
     <ClCompile Include="BJ1021_회전하는큐.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="BJ11729_하노이탑이동순서.cpp" />
     <ClCompile Include="BJ12015_가장긴증가하는부분수열2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
