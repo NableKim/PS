@@ -321,6 +321,15 @@
     <ClCompile Include="BJ9663_NQueen.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="BJ2003_수들의합2.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ2003_수들의합2_개선cpp.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ11725_트리의부모찾기.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
