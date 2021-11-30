@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\Swea">
       <UniqueIdentifier>{5eabd611-c73c-4055-b984-160c39b20192}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Algorithm">
+      <UniqueIdentifier>{c2fc7ce1-0f07-4c12-8850-4303b5a1b41e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
@@ -329,6 +332,9 @@
     </ClCompile>
     <ClCompile Include="BJ11725_트리의부모찾기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="에드몬드카프(최대유량).cpp">
+      <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
