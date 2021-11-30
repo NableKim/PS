@@ -199,7 +199,10 @@
     <ClCompile Include="BJ1965_상자넣기3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BJ1965_상자넣기_LIS수열구하기.cpp" />
+    <ClCompile Include="BJ1965_상자넣기_LIS수열구하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BJ1992_쿼드트리.cpp" />
     <ClCompile Include="BJ2110_공유기설치.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
