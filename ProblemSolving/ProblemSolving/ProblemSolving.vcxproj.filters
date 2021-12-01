@@ -339,6 +339,9 @@
     <ClCompile Include="BJ6086_최대유량.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="BJ1780_종이의개수.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
