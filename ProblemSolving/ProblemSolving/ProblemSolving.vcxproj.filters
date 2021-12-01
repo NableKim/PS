@@ -348,6 +348,9 @@
     <ClCompile Include="BJ10026_적록색약.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="BJ6603_로또.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
