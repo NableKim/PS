@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\Algorithm">
       <UniqueIdentifier>{c2fc7ce1-0f07-4c12-8850-4303b5a1b41e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Euler">
+      <UniqueIdentifier>{c94b88c2-6527-4752-9390-0198407f9df8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PG82612_부족한금액계산하기.cpp">
@@ -350,6 +353,12 @@
     </ClCompile>
     <ClCompile Include="BJ6603_로또.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="E20_100팩토리얼.cpp">
+      <Filter>소스 파일\Euler</Filter>
+    </ClCompile>
+    <ClCompile Include="E5_어떠한수로도나누어떨어지는수.cpp">
+      <Filter>소스 파일\Euler</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
