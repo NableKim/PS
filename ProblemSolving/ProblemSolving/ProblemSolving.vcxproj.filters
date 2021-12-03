@@ -384,6 +384,9 @@
     <ClCompile Include="BJ2448_별찍기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="BJ10830_행렬제곱.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
