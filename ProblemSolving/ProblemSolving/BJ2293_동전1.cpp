@@ -3,21 +3,7 @@ using namespace std;
 
 int C[100];
 int N, K, answer;
-int D[100][10001];
-
-int getD(int kind, int sum) {
-
-	if (D[kind][sum])
-		return D[kind][sum];
-
-	if (C[kind] > sum) {
-		return getD(kind - 1, sum);
-	}
-	else {
-		return getD(kind, sum - C[kind]) + getD(kind - 1, sum);
-	}
-}
-
+int D[10001];
 
 int main() {
 
@@ -25,14 +11,19 @@ int main() {
 
 	scanf(" %d %d", &N, &K);
 
-	for (int i = 0; i < N; i++)
+	for (int i = 1; i <= N; i++)
 		scanf(" %d", &C[i]);
 	
-	for (int i = 0; i <= K; i++) {
-		if(i % C[0] == 0)
-			D[0][i] = 1;
+	D[0] = 1;
+
+	for (int i = 1; i <= N; i++) {
+		for (int k = 1; k <= K; k++) {
+			if (k >= C[i])
+				D[k] = D[k - C[i]] + D[k];
+		}
 	}
-	printf("%d", getD(N-1, K));
+
+	printf("%d", D[K]);
 
 	return 0;
 }
