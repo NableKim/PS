@@ -423,6 +423,9 @@
     <ClCompile Include="Baekjoon\BJ10816_숫자카드2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\BJ10816_숫자카드2_해시.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
