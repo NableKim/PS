@@ -160,7 +160,9 @@
     <ClCompile Include="Baekjoon\BJ10816_숫자카드2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10816_숫자카드2_해시.cpp" />
+    <ClCompile Include="Baekjoon\BJ10816_숫자카드2_해시.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\BJ10830_행렬제곱.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -329,6 +331,7 @@
     <ClCompile Include="Baekjoon\BJ4855_녹색옷입은애가젤다지.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Baekjoon\BJ4949_균형잡힌세상.cpp" />
     <ClCompile Include="Baekjoon\BJ5639_이진검색트리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
