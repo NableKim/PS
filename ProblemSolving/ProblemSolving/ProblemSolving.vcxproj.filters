@@ -435,6 +435,9 @@
     <ClCompile Include="Baekjoon\BJ1764_듣보잡.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\BJ1655_가운데를말해요.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
