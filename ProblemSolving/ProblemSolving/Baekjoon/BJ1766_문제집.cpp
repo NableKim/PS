@@ -1,24 +1,14 @@
 #include <cstdio>
 #include <vector>
 #include <queue>
+#include <functional>
 using namespace std;
 
 #define NODE_NUN 32000
 
-struct P {
-	int degree, idx;
-};
-
-bool operator <(P a, P b) {
-	if (a.degree == b.degree)
-		return a.idx > b.idx;
-	return a.degree > b.degree;
-}
-
 int Degree[NODE_NUN + 1];
-bool Check[NODE_NUN + 1];
 vector<int> E[NODE_NUN + 1];
-priority_queue<P> pq;
+priority_queue<int, vector<int>, greater<int>> pq;
 
 int main() {
 
@@ -34,26 +24,19 @@ int main() {
 	}
 
 	for (int i = 1; i <= N; i++) {
-		pq.push({ Degree[i], i });
+		if(Degree[i]==0)
+			pq.push({ i });
 	}
 
-	int cnt = 0;
-	while (!pq.empty()) {
-		int node = pq.top().idx;
-		pq.pop();
-	
-		if (!Check[node]) {
-			Check[node] = true;
-			printf("%d ", node);
-			cnt++;
-
-			if (cnt == N) break;
-
-			for (int k = 0; k < E[node].size(); k++) {
-				int nextNode = E[node][k];
-				Degree[nextNode]--;
-				pq.push({ Degree[nextNode], nextNode });
-			}
+	for (int i = 1; i <= N; i++) {
+		int node = pq.top(); pq.pop();
+		printf("%d ", node);
+			
+		for (int k = 0; k < E[node].size(); k++) {
+			int nextNode = E[node][k];
+			Degree[nextNode]--;
+			if(Degree[nextNode]==0)
+				pq.push(nextNode);
 		}
 	}
 
