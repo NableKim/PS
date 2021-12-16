@@ -441,6 +441,9 @@
     <ClCompile Include="Baekjoon\BJ9375_패션왕신해빈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\BJ1766_문제집.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
