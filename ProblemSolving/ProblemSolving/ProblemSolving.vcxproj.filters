@@ -447,6 +447,9 @@
     <ClCompile Include="Baekjoon\BJ13549_숨바꼭질3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\BJ1715_카드정렬하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
