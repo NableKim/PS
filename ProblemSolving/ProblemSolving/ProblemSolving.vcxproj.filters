@@ -453,6 +453,9 @@
     <ClCompile Include="Baekjoon\BJ9935_문자열폭발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\BJ2661_좋은수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
