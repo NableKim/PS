@@ -1,4 +1,4 @@
-* Scanner vs BufferedReader
+### Scanner vs BufferedReader
 - BufferedReader는 한줄을 통째로 입력받는 방법으로 Scanner보다 입력 속도가 비교적 빠름
 
 ```java
