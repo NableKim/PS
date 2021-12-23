@@ -14,3 +14,28 @@ public class BJ7568_덩치_2 {
 	}
 }
 ```
+
+### 정렬하기
+- Arrays.sort() 함수를 사용한다
+- [참고글](https://coding-factory.tistory.com/549)
+``` java
+public class BJ2750_수정렬하기 {
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		
+		Integer [] arr = new Integer[N];
+		for(int i=0; i<N; i++) {
+			int a = Integer.parseInt(br.readLine());
+			arr[i] = a;
+		}
+		
+		//Arrays.sort(arr); // 오름차순 정렬
+		Arrays.sort(arr, Collections.reverseOrder()); // 내림차순 정렬
+		
+		for(int i : arr)
+			System.out.println(i);
+	}
+}
+```
