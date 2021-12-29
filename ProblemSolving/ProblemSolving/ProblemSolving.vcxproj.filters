@@ -465,6 +465,9 @@
     <ClCompile Include="Programmers\PG77484_로또의최고순위와최저순위.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\PG64065_튜플.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
