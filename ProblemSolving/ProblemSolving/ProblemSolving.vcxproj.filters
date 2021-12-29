@@ -474,6 +474,9 @@
     <ClCompile Include="Programmers\BJ64062_징검다리건너기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\BJ64062_징검다리건너기_이분탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
