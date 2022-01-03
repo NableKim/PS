@@ -6,7 +6,6 @@
 
 using namespace std;
 
-
 struct INFO {
     int num;
     double fail;
@@ -14,12 +13,11 @@ struct INFO {
 
 int cnt[MAX_NUM + 1];
 int sum[MAX_NUM + 1];
-
 vector<INFO> v;
 
-//
-
 bool operator <(INFO a, INFO b) {
+    if (a.fail == b.fail)
+        return a.num < b.num;
     return a.fail > b.fail;
 }
 
