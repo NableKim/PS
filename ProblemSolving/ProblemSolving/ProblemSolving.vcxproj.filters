@@ -483,6 +483,9 @@
     <ClCompile Include="Programmers\PG42889_실패율.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\PG17681_[1차]비밀지도.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
