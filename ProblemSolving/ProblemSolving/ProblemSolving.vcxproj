@@ -403,7 +403,10 @@
     <ClCompile Include="Programmers\PG17680_[1차]캐시.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\PG17681_[1차]비밀지도.cpp" />
+    <ClCompile Include="Programmers\PG17681_[1차]비밀지도.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\PG17682_[1차]다트게임.cpp" />
     <ClCompile Include="Programmers\PG64062_징검다리건너기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
