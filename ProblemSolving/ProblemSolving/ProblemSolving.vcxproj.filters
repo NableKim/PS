@@ -492,6 +492,9 @@
     <ClCompile Include="Programmers\PG42892_길찾기게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\PG92334_신고결과받기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
