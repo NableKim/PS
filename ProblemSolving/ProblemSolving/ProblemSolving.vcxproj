@@ -562,7 +562,13 @@
     <ClCompile Include="Algorithm\Segment_Tree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\PG92334_신고결과받기.cpp" />
+    <ClCompile Include="Programmers\PG92334_신고결과받기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\PG92335_k진수에서소수개수구하기.cpp" />
+    <ClCompile Include="Programmers\PG92341_주차요금계산.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Softeer\ST581_택배마스터광우.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
