@@ -501,6 +501,9 @@
     <ClCompile Include="Programmers\PG92335_k진수에서소수개수구하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\PG92342_양궁대회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
