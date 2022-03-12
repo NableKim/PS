@@ -504,6 +504,15 @@
     <ClCompile Include="Programmers\PG92342_양궁대회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SK\소스1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SK\소스3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SK\소스4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
