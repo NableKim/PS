@@ -145,6 +145,7 @@
     <ClCompile Include="Baekjoon\10000\BJ10026_적록색약.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Baekjoon\10000\BJ14466_소가길을건너간이유6.cpp" />
     <ClCompile Include="Baekjoon\10000\BJ16967_배열복원하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -193,7 +194,9 @@
     <ClCompile Include="Baekjoon\10000\BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\1000\BJ1244_스위치켜고끄기.cpp" />
+    <ClCompile Include="Baekjoon\1000\BJ1244_스위치켜고끄기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\1000\BJ1256_사전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
