@@ -540,6 +540,15 @@
     <ClCompile Include="Baekjoon\10000\BJ14466_소가길을건너간이유6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\PG12936_줄서는방법.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\PG12936_줄서는방법_시간초과.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\PG76503_모두0으로만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">

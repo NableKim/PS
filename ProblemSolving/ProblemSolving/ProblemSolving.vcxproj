@@ -145,7 +145,9 @@
     <ClCompile Include="Baekjoon\10000\BJ10026_적록색약.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\10000\BJ14466_소가길을건너간이유6.cpp" />
+    <ClCompile Include="Baekjoon\10000\BJ14466_소가길을건너간이유6.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\10000\BJ16967_배열복원하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -420,6 +422,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Leetcode\LC7_ZigzagConversion.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\PG76503_모두0으로만들기.cpp" />
+    <ClCompile Include="Programmers\PG12936_줄서는방법.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\PG12936_줄서는방법_시간초과.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\PG17680_[1차]캐시.cpp">
