@@ -142,263 +142,266 @@
     <ClCompile Include="Algorithm\Trie.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10026_적록색약.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10026_적록색약.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1002_터렛.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ16967_배열복원하기.cpp" />
+    <ClCompile Include="Baekjoon\1000\BJ1002_터렛.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1010_다리놓기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1010_다리놓기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1021_회전하는큐.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1021_회전하는큐.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1074_Z.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1074_Z.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10773_제로.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10773_제로.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10816_숫자카드2.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10816_숫자카드2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10816_숫자카드2_해시.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10816_숫자카드2_해시.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10830_행렬제곱.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10830_행렬제곱.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11048_이동하기.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11048_이동하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11279_최대힙.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11279_최대힙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11501_주식.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11501_주식.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11725_트리의부모찾기.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11725_트리의부모찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11729_하노이탑이동순서.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11729_하노이탑이동순서.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ12015_가장긴증가하는부분수열2.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ12015_가장긴증가하는부분수열2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1256_사전.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1256_사전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1292_쉽게푸는문제.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1292_쉽게푸는문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1292_쉽게푸는문제2.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1292_쉽게푸는문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1316_그룹단어체커.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1316_그룹단어체커.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ13549_숨바꼭질3.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ13549_숨바꼭질3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1436_영화감독숌.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1436_영화감독숌.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ15652_N과M%284%29.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ15652_N과M%284%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1629_곱셈.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1629_곱셈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1644_소수의연속합.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1644_소수의연속합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1644_소수의연속합_투포인터.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1644_소수의연속합_투포인터.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1655_가운데를말해요.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1655_가운데를말해요.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1715_카드정렬하기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1715_카드정렬하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1764_듣보잡.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1764_듣보잡.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ16935_배열돌리기3.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ16935_배열돌리기3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ17103_골드바흐파티션.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ17103_골드바흐파티션.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1713_후보추천하기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1713_후보추천하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1717_집합의표현.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1717_집합의표현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ17298_오큰수.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ17298_오큰수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1766_문제집.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1766_문제집.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1780_종이의개수.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1780_종이의개수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ17829_222풀링.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ17829_222풀링.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1806_부분합.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1806_부분합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ18870_좌표압축.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ18870_좌표압축.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ18870_좌표압축2.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ18870_좌표압축2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1927_최소힙.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1927_최소힙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기2.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기3.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기_LIS수열구하기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기_LIS수열구하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1967_트리의지름.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1967_트리의지름.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1967_트리의지름_dfs.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1967_트리의지름_dfs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1987_알파벳.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1987_알파벳.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1991_순회.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1991_순회.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1992_쿼드트리.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1992_쿼드트리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2003_수들의합2.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2003_수들의합2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2003_수들의합2_개선cpp.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2003_수들의합2_개선cpp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2042_구간합구하기.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2042_구간합구하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2110_공유기설치.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2110_공유기설치.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2217_로프.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2217_로프.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2293_동전1.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2293_동전1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2304_창고다각형.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2304_창고다각형.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2406_안정적인네트워크.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2406_안정적인네트워크.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2447_별찍기10.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2447_별찍기10.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2448_별찍기.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2448_별찍기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2468_안전영역.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2468_안전영역.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2470_두용액.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2470_두용액.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2563_색종이.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2563_색종이.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2630_색종이만들기.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2630_색종이만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2661_좋은수열.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2661_좋은수열.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2941_크로아티아알파벳.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2941_크로아티아알파벳.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ3584_가장가까운공통조상.cpp">
+    <ClCompile Include="Baekjoon\3000\BJ3584_가장가까운공통조상.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ3584_가장가까운공통조상_DP.cpp">
+    <ClCompile Include="Baekjoon\3000\BJ3584_가장가까운공통조상_DP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ3908_서로다른소수의합.cpp">
+    <ClCompile Include="Baekjoon\3000\BJ3908_서로다른소수의합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4256_트리.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4256_트리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4307_개미.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4307_개미.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4673_셀프넘버.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4673_셀프넘버.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4855_녹색옷입은애가젤다지.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4855_녹색옷입은애가젤다지.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4949_균형잡힌세상.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4949_균형잡힌세상.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록2.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록3.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록4.cpp" />
-    <ClCompile Include="Baekjoon\BJ5639_이진검색트리.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5904_Moo게임.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5639_이진검색트리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ6086_최대유량.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5904_Moo게임.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ6603_로또.cpp">
+    <ClCompile Include="Baekjoon\6000\BJ6086_최대유량.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ7569_토마토.cpp">
+    <ClCompile Include="Baekjoon\6000\BJ6603_로또.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9375_패션왕신해빈.cpp">
+    <ClCompile Include="Baekjoon\7000\BJ7569_토마토.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9655_돌게임.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9375_패션왕신해빈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9663_NQueen.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9655_돌게임.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9935_문자열폭발.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9663_NQueen.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9000\BJ9935_문자열폭발.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Euler\E20_100팩토리얼.cpp">
@@ -452,7 +455,7 @@
     <ClCompile Include="Programmers\PG12979_기지국설치_시간초과.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ16637_괄호추가하기.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ16637_괄호추가하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\PG1844_게임맵최단거리.cpp">

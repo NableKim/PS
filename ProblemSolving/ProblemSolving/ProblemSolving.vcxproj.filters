@@ -144,22 +144,22 @@
     <ClCompile Include="Programmers\PG49189_가장먼노드_최소힙사용.cpp">
       <Filter>소스 파일\Programmers\Level3</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ12015_가장긴증가하는부분수열2.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ12015_가장긴증가하는부분수열2.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1644_소수의연속합.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1644_소수의연속합.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1644_소수의연속합_투포인터.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1644_소수의연속합_투포인터.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2941_크로아티아알파벳.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2941_크로아티아알파벳.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ3908_서로다른소수의합.cpp">
+    <ClCompile Include="Baekjoon\3000\BJ3908_서로다른소수의합.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ12015_가장긴증가하는부분수열2_이분탐색구현.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\PG12904_가장긴팰린드롬.cpp">
@@ -189,13 +189,13 @@
     <ClCompile Include="Softeer\ST582_지우는소수를좋아해3.cpp">
       <Filter>소스 파일\Softeer</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ7569_토마토.cpp">
+    <ClCompile Include="Baekjoon\7000\BJ7569_토마토.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Swea\SWEA5656_벽돌깨기.cpp">
       <Filter>소스 파일\Swea</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ16637_괄호추가하기.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ16637_괄호추가하기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\PG77486_다단계칫솔판매.cpp">
@@ -207,52 +207,52 @@
     <ClCompile Include="Softeer\ST582_지우는소수를좋아해4.cpp">
       <Filter>소스 파일\Softeer</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2406_안정적인네트워크.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2406_안정적인네트워크.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4673_셀프넘버.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4673_셀프넘버.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1316_그룹단어체커.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1316_그룹단어체커.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1002_터렛.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1002_터렛.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2468_안전영역.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2468_안전영역.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2217_로프.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2217_로프.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1021_회전하는큐.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1021_회전하는큐.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2110_공유기설치.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2110_공유기설치.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1436_영화감독숌.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1436_영화감독숌.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1010_다리놓기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1010_다리놓기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4855_녹색옷입은애가젤다지.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4855_녹색옷입은애가젤다지.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1292_쉽게푸는문제.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1292_쉽게푸는문제.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1292_쉽게푸는문제2.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1292_쉽게푸는문제2.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9655_돌게임.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9655_돌게임.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2563_색종이.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2563_색종이.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\PG77485_행렬테두리회전하기.cpp">
@@ -267,85 +267,85 @@
     <ClCompile Include="Programmers\PG42890_후보키.cpp">
       <Filter>소스 파일\Programmers\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기2.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기2.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기3.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기3.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11729_하노이탑이동순서.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11729_하노이탑이동순서.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ18870_좌표압축.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ18870_좌표압축.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ18870_좌표압축2.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ18870_좌표압축2.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ17103_골드바흐파티션.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ17103_골드바흐파티션.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2304_창고다각형.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2304_창고다각형.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1713_후보추천하기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1713_후보추천하기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4307_개미.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4307_개미.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ16935_배열돌리기3.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ16935_배열돌리기3.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2447_별찍기10.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2447_별찍기10.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2630_색종이만들기.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2630_색종이만들기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ3584_가장가까운공통조상.cpp">
+    <ClCompile Include="Baekjoon\3000\BJ3584_가장가까운공통조상.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ3584_가장가까운공통조상_DP.cpp">
+    <ClCompile Include="Baekjoon\3000\BJ3584_가장가까운공통조상_DP.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1965_상자넣기_LIS수열구하기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1965_상자넣기_LIS수열구하기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1992_쿼드트리.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1992_쿼드트리.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9663_NQueen.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9663_NQueen.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2003_수들의합2.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2003_수들의합2.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2003_수들의합2_개선cpp.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2003_수들의합2_개선cpp.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11725_트리의부모찾기.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11725_트리의부모찾기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm\에드몬드카프%28최대유량%29.cpp">
       <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ6086_최대유량.cpp">
+    <ClCompile Include="Baekjoon\6000\BJ6086_최대유량.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1780_종이의개수.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1780_종이의개수.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1074_Z.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1074_Z.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10026_적록색약.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10026_적록색약.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ6603_로또.cpp">
+    <ClCompile Include="Baekjoon\6000\BJ6603_로또.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Euler\E20_100팩토리얼.cpp">
@@ -354,112 +354,112 @@
     <ClCompile Include="Euler\E5_어떠한수로도나누어떨어지는수.cpp">
       <Filter>소스 파일\Euler</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1967_트리의지름.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1967_트리의지름.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1967_트리의지름_dfs.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1967_트리의지름_dfs.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1256_사전.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1256_사전.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1806_부분합.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1806_부분합.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2470_두용액.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2470_두용액.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5639_이진검색트리.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5639_이진검색트리.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1991_순회.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1991_순회.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2448_별찍기.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2448_별찍기.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10830_행렬제곱.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10830_행렬제곱.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ15652_N과M%284%29.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ15652_N과M%284%29.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11501_주식.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11501_주식.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4256_트리.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4256_트리.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5904_Moo게임.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5904_Moo게임.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ17829_222풀링.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ17829_222풀링.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1987_알파벳.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1987_알파벳.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2293_동전1.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2293_동전1.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1629_곱셈.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1629_곱셈.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm\Segment_Tree.cpp">
       <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11048_이동하기.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11048_이동하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1717_집합의표현.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1717_집합의표현.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ17298_오큰수.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ17298_오큰수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10773_제로.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10773_제로.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10816_숫자카드2.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10816_숫자카드2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ10816_숫자카드2_해시.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ10816_숫자카드2_해시.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ4949_균형잡힌세상.cpp">
+    <ClCompile Include="Baekjoon\4000\BJ4949_균형잡힌세상.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2042_구간합구하기.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2042_구간합구하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1764_듣보잡.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1764_듣보잡.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1655_가운데를말해요.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1655_가운데를말해요.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9375_패션왕신해빈.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9375_패션왕신해빈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1766_문제집.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1766_문제집.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ13549_숨바꼭질3.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ13549_숨바꼭질3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1715_카드정렬하기.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1715_카드정렬하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ9935_문자열폭발.cpp">
+    <ClCompile Include="Baekjoon\9000\BJ9935_문자열폭발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ2661_좋은수열.cpp">
+    <ClCompile Include="Baekjoon\2000\BJ2661_좋은수열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ1927_최소힙.cpp">
+    <ClCompile Include="Baekjoon\1000\BJ1927_최소힙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ11279_최대힙.cpp">
+    <ClCompile Include="Baekjoon\10000\BJ11279_최대힙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\PG77484_로또의최고순위와최저순위.cpp">
@@ -516,19 +516,22 @@
     <ClCompile Include="SK\소스2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록2.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록3.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm\Trie.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\BJ5052_전화번호목록4.cpp">
+    <ClCompile Include="Baekjoon\5000\BJ5052_전화번호목록4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10000\BJ16967_배열복원하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
