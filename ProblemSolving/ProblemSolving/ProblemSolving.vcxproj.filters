@@ -534,6 +534,9 @@
     <ClCompile Include="Baekjoon\10000\BJ16967_배열복원하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\1000\BJ1244_스위치켜고끄기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
