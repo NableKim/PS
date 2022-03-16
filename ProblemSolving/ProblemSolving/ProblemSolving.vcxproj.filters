@@ -552,6 +552,9 @@
     <ClCompile Include="Programmers\Level3\PG42627_디스크컨트롤러.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level3\PG12946_하노이탑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
