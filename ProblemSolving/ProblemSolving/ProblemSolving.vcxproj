@@ -235,7 +235,9 @@
     <ClCompile Include="Baekjoon\10000\BJ15652_N과M%284%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\1000\BJ1475_방번호.cpp" />
+    <ClCompile Include="Baekjoon\1000\BJ1475_방번호.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\1000\BJ1629_곱셈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -440,6 +442,7 @@
     <ClCompile Include="Leetcode\LC7_ZigzagConversion.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\PG42890_후보키.cpp" />
     <ClCompile Include="Programmers\Level3\PG12946_하노이탑.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

@@ -576,6 +576,9 @@
     <ClCompile Include="Baekjoon\1000\BJ1475_방번호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\PG42890_후보키.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
