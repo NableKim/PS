@@ -157,10 +157,13 @@
     <ClCompile Include="Baekjoon\10000\BJ15591_MooTube(Silver)2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Baekjoon\10000\BJ15903_카드합체놀이.cpp" />
     <ClCompile Include="Baekjoon\10000\BJ16967_배열복원하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\10000\BJ1918_후위표기식.cpp" />
+    <ClCompile Include="Baekjoon\10000\BJ1918_후위표기식.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\1000\BJ1002_터렛.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
