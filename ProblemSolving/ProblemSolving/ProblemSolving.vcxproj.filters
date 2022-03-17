@@ -567,6 +567,9 @@
     <ClCompile Include="Baekjoon\10000\BJ15591_MooTube(Silver)2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\10000\BJ1918_후위표기식.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
