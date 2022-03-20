@@ -594,6 +594,9 @@
     <ClCompile Include="Programmers\Level2\PG12949_행렬의곱셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\PG77885_2개이하로다른비트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">

@@ -457,6 +457,7 @@
     <ClCompile Include="Programmers\Level2\PG76502_괄호회전하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\PG77885_2개이하로다른비트.cpp" />
     <ClCompile Include="Programmers\Level2\PG87946_피로도.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
