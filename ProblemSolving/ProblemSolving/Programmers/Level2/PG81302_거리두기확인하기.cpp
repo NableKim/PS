@@ -47,7 +47,7 @@ bool checkSafe(vector<string>& place) {
         for (int x = 0; x < 5; x++) {
             if (place[y][x] == 'P') {
                 if (!bfs(y, x, place))
-                    return false;
+                    return false;Á¦
             }
         }
     }
