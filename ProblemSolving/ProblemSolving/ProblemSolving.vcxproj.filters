@@ -618,6 +618,9 @@
     <ClCompile Include="Algorithm\레벤슈타인 알고리즘.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="라인6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
