@@ -639,6 +639,9 @@
     <ClCompile Include="Line\소스6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\PG86971_전력망을둘로나누기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
