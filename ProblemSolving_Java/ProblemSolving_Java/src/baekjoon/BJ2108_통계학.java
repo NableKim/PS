@@ -30,7 +30,7 @@ class Counting implements Comparable<Counting>{
 	}
 }
 
-public class BJ2108_Åë°èÇÐ {
+public class BJ2108_í†µê³„í•™ {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

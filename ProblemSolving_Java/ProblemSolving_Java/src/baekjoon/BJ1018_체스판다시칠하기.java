@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class BJ1018_ü���Ǵٽ�ĥ�ϱ� {
+public class BJ1018_체스판다시칠하기 {
 	
 	static char[][] map;
 	static int minCnt = 5000;

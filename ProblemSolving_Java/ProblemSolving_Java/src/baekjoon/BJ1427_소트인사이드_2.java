@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class BJ1427_¼ÒÆ®ÀÎ»çÀÌµå_2 {
+public class BJ1427_ì†ŒíŠ¸ì¸ì‚¬ì´ë“œ_2 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

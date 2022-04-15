@@ -1,14 +1,14 @@
 package programmers;
 
-public class PG72410_½Å±Ô¾ÆÀÌµğÃßÃµ2 {
+public class PG72410_ì‹ ê·œì•„ì´ë””ì¶”ì²œ2 {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        String new_id = solution.solution("...!@BaT#*..y.abcdefghijklm");
+        String new_id = solution.Solution("...!@BaT#*..y.abcdefghijklm");
         System.out.println("new_id = " + new_id);
     }
 
     static class Solution {
-        public String solution(String new_id) {
+        public String Solution(String new_id) {
             String answer = new_id.toLowerCase()
                     .replaceAll("[^a-z0-9-_.]","")
                     .replaceAll("[.]{2,}", ".")

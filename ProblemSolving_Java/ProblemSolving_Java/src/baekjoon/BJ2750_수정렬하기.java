@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 
-public class BJ2750_¼öÁ¤·ÄÇÏ±â {
+public class BJ2750_ìˆ˜ì •ë ¬í•˜ê¸° {
 	public static void main(String[] args) {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,7 +21,7 @@ public class BJ2750_¼öÁ¤·ÄÇÏ±â {
 				arr[i] = Integer.parseInt(br.readLine());
 			}
 			
-			Arrays.sort(arr); // ¿À¸§Â÷¼ø Á¤·Ä
+			Arrays.sort(arr); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			
 			for(int i : arr)
 				bw.write(i + "\n");

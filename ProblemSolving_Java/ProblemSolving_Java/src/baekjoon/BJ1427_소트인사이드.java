@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class BJ1427_¼ÒÆ®ÀÎ»çÀÌµå {
+public class BJ1427_ì†ŒíŠ¸ì¸ì‚¬ì´ë“œ {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		

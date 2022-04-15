@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class BJ7568_µ¢Ä¡ {
+public class BJ7568_ë©ì¹˜ {
 	
 	static int[][] arr = new int[50][2];
 	

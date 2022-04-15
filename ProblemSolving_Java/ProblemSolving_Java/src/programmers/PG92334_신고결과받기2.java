@@ -2,25 +2,25 @@ package programmers;
 
 import java.util.*;
 
-public class PG92334_½Å°í°á°ú¹Þ±â2 {
+public class PG92334_ì‹ ê³ ê²°ê³¼ë°›ê¸°2 {
     public int[] solution(String[] id_list, String[] report, int k) {
 
         int[] answer = new int[id_list.length];
 
-        // ½Å°í´çÇÑ»ç¶÷, ½Å°íÇÑ »ç¶÷ ¸í´Ü
+        // ï¿½Å°ï¿½ï¿½ï¿½Ñ»ï¿½ï¿½, ï¿½Å°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         Map<String, Set<String>> reportInfo = new HashMap<>();
 
-        // idº° idx ºÎ¿©
+        // idï¿½ï¿½ idx ï¿½Î¿ï¿½
         Map<String, Integer> idIndexMap = new HashMap<>();
         for (int i = 0; i < id_list.length; i++)
             idIndexMap.put(id_list[i], i);
 
         for (String s : report) {
             String[] username = s.split(" ");
-            String user1 = username[0]; // ½Å°íÀÚ
-            String user2 = username[1]; // ½Å°í´çÇÑ »ç¶÷
+            String user1 = username[0]; // ï¿½Å°ï¿½ï¿½ï¿½
+            String user2 = username[1]; // ï¿½Å°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 
-            // ½Å°íÀÚ Ãß°¡
+            // ï¿½Å°ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
             Set<String> set = reportInfo.getOrDefault(user2, new HashSet<>());
             set.add(user1);
             reportInfo.put(user2, set);

@@ -18,7 +18,7 @@ class newCompare implements Comparator<Integer> {
 	
 }
 
-public class BJ11279_ÃÖ´ëÈü {
+public class BJ11279_ìµœëŒ€íž™ {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

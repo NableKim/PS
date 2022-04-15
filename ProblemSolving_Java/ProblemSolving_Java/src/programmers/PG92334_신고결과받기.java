@@ -3,7 +3,7 @@ package programmers;
 import java.util.HashMap;
 import java.util.Map;
 
-public class PG92334_½Å°í°á°ú¹Þ±â {
+public class PG92334_ì‹ ê³ ê²°ê³¼ë°›ê¸° {
 	
     boolean[][] R = new boolean[1000][1000];
     int[] C = new int[1000];
@@ -11,7 +11,7 @@ public class PG92334_½Å°í°á°ú¹Þ±â {
 	public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
         
-        // idº° index¸¦ ºÎ¿©
+        // idï¿½ï¿½ indexï¿½ï¿½ ï¿½Î¿ï¿½
         Map<String, Integer> idIndexMap = new HashMap<>();
         for(int i=0; i<id_list.length; i++) {
         	idIndexMap.put(id_list[i], i);
