@@ -148,11 +148,7 @@
     <ClCompile Include="Algorithm\Trie.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BucketPlace\소스1.cpp" />
-    <ClCompile Include="BucketPlace\소스2.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="BucketPlace\소스3.cpp">
+    <ClCompile Include="BucketPlace\소스1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Line\소스1.cpp">
@@ -188,7 +184,9 @@
     <ClCompile Include="Programmers\Level2\PG49994_방문길이.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\PG68936_쿼드압축후개수세기.cpp" />
+    <ClCompile Include="Programmers\Level2\PG68936_쿼드압축후개수세기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Programmers\Level2\PG84512_모음사전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
