@@ -48,13 +48,11 @@ public class PG42579_베스트앨범 {
             }
 
             // 누적 재생 횟수별로 장르명 정렬하기
-            List<Map.Entry<String, Integer>> list = new LinkedList<>(playCntHashMap.entrySet());
+            List<Map.Entry<String, Integer>> list = new ArrayList<>(playCntHashMap.entrySet());
             Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
                 @Override
                 public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                    if(o1.getValue() < o2.getValue())
-                        return 1;
-                    return -1;
+                    return o2.getValue()-o1.getValue();
                 }
             });
 
