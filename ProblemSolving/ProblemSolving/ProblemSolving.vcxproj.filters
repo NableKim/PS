@@ -672,6 +672,9 @@
     <ClCompile Include="BucketPlace\소스1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\20000\BJ21608_상어초등학교.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">

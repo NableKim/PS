@@ -148,6 +148,7 @@
     <ClCompile Include="Algorithm\Trie.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Baekjoon\20000\BJ21608_상어초등학교.cpp" />
     <ClCompile Include="BucketPlace\소스1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
